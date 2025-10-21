@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLM Poltekkes Mataram</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => AOS.init({ duration: 800 }));
+</script>
+
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Navbar -->
+    <nav class="bg-blue-700 text-white p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-xl font-bold">BLM Poltekkes Mataram</h1>
+        <ul class="flex space-x-4">
+          <li><a href="#beranda" class="hover:text-yellow-300">Beranda</a></li>
+          <li><a href="#tentang" class="hover:text-yellow-300">Tentang</a></li>
+          <li><a href="#kegiatan" class="hover:text-yellow-300">Kegiatan</a></li>
+          <li><a href="#kontak" class="hover:text-yellow-300">Kontak</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Beranda (Hero Section) -->
+<section id="beranda" class="relative bg-blue-700 text-white text-center py-32">
+  <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('bg-blm.jpg');"></div>
+  <div class="relative z-10">
+    <img src="logo.png" alt="Logo BLM" class="mx-auto w-24 mb-4 rounded-full shadow-lg border-2 border-white">
+    <h2 class="text-4xl font-bold mb-2">Badan Legislatif Mahasiswa</h2>
+    <p class="text-lg font-medium mb-6">Poltekkes Kemenkes Mataram</p>
+    <a href="#tentang" class="bg-yellow-400 text-blue-900 font-semibold px-6 py-3 rounded-lg shadow hover:bg-yellow-300 transition">
+      Lihat Profil Kami
+    </a>
+  </div>
+</section>
+
+    <!-- Tentang -->
+    <section id="tentang" class="container mx-auto py-16">
+      <h2 class="text-2xl font-bold text-center mb-6">Tentang Kami</h2>
+      <p class="text-center max-w-2xl mx-auto">
+        Badan Legislatif Mahasiswa (BLM) adalah lembaga legislatif mahasiswa yang berperan dalam mengawasi, mengatur, dan menyuarakan aspirasi mahasiswa Poltekkes Kemenkes Mataram. Kami berkomitmen untuk menjadi wadah aspirasi yang transparan, kritis, dan konstruktif.
+      </p>
+    </section>
+    
+   <!-- Struktur Kepengurusan -->
+<section id="struktur" class="py-16 bg-gray-100">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-10 text-blue-800">Struktur Kepengurusan</h2>
+
+    <!-- BPH Section -->
+    <h3 class="text-2xl font-semibold mb-6 text-gray-700">Badan Pengurus Harian (BPH)</h3>
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-7 mb-11">
+      <!-- Ketua -->
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/ketua.jpg" alt="Ketua Umum" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Aulia Dini Mardiati</h4>
+        <p class="text-gray-600">Ketua Umum</p>
+      </div>
+
+      <!-- Wakil Ketua -->
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/wakil.jpg" alt="Wakil Ketua" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Dina Aulia Febrianti</h4>
+        <p class="text-gray-600">Wakil Ketua Umum</p>
+      </div>
+
+      <!-- Sekretaris 1 -->
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/sekum1.jpg" alt="Sekretaris 1" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Bq.Amelia Ariska</h4>
+        <p class="text-gray-600">Sekretaris Umum</p>
+      </div>
+
+      <!-- Bendahara 1 -->
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/bendum1.jpg" alt="Bendahara 1" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Rizki Lailatul Fajri</h4>
+        <p class="text-gray-600">Bendahara Umum</p>
+      </div>
+    </div>
+
+    <!-- CO Tiap Divisi -->
+    <h3 class="text-2xl font-semibold mb-6 text-gray-700">Koordinator Divisi (CO)</h3>
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-7 mb-11">
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/co-humas.jpg" alt="CO Humas" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Nama CO Humas</h4>
+        <p class="text-gray-600">Koordinator Humas</p>
+      </div>
+
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/co-advokasi.jpg" alt="CO Advokasi" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Nama CO Advokasi</h4>
+        <p class="text-gray-600">Koordinator Advokasi</p>
+      </div>
+
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/co-advokasi.jpg" alt="CO Advokasi" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Nama CO Advokasi</h4>
+        <p class="text-gray-600">Koordinator Advokasi</p>
+      </div>
+      
+      <div class="bg-white shadow-lg p-6 rounded-xl">
+        <img src="img/co-kaderisasi.jpg" alt="CO Kaderisasi" class="mx-auto w-32 h-32 rounded-full object-cover mb-4 shadow">
+        <h4 class="font-bold text-lg text-blue-700">Nama CO Kaderisasi</h4>
+        <p class="text-gray-600">Koordinator Kaderisasi</p>
+      </div>
+    </div>
+
+    <!-- Anggota Tiap Divisi -->
+    <h3 class="text-2xl font-semibold mb-6 text-gray-700">Anggota Divisi</h3>
+    <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-5 text-gray-700">
+      <div class="bg-gray-50 shadow p-4 rounded-lg">
+        <h4 class="font-bold text-blue-700">Komisi I (Pengawasan)</h4>
+        <ul class="mt-2 text-sm text-gray-600">
+          <li>Nama Anggota 1</li>
+          <li>Nama Anggota 2</li>
+          <li>Nama Anggota 3</li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-50 shadow p-4 rounded-lg">
+        <h4 class="font-bold text-blue-700">Komisi II (Keuangan)</h4>
+        <ul class="mt-2 text-sm text-gray-600">
+          <li>Nama Anggota 1</li>
+          <li>Nama Anggota 2</li>
+          <li>Nama Anggota 3</li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-50 shadow p-4 rounded-lg">
+        <h4 class="font-bold text-blue-700">Komisi III (Legislasi)</h4>
+        <ul class="mt-2 text-sm text-gray-600">
+          <li>Wiwin Atqiya</li>
+          <li>Sirrullaeli Atqiya alwafi</li>
+          <li>Wira Mulya Wijaya Kusuma Putra</li>
+          <li>Aulia Annisa Febriyanti</li>
+          <li>Dini Hayati</li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-50 shadow p-4 rounded-lg">
+        <h4 class="font-bold text-blue-700">Komisi IV (Publikasi)</h4>
+        <ul class="mt-2 text-sm text-gray-600">
+          <li>Nama Anggota 1</li>
+          <li>Nama Anggota 2</li>
+          <li>Nama Anggota 3</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Galeri -->
+<section id="galeri" class="py-16 bg-blue-50 text-center">
+  <h2 class="text-2xl font-bold mb-6">Galeri Kegiatan</h2>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 container mx-auto">
+    <img src="images/kegiatan1.jpg" class="rounded-lg shadow">
+    <img src="images/kegiatan2.jpg" class="rounded-lg shadow">
+    <img src="images/kegiatan3.jpg" class="rounded-lg shadow">
+    <img src="images/kegiatan4.jpg" class="rounded-lg shadow">
+  </div>
+</section>
+
+    <!-- Kontak -->
+    <section id="kontak" class="container mx-auto py-16 text-center">
+      <h2 class="text-2xl font-bold mb-4">Hubungi Kami</h2>
+      <p>Email: blm.poltekkesmataram@gmail.com</p>
+      <p>Instagram: @blm_poltekkesmataram</p>
+    </section>
+
+    <!-- Footer -->
+<footer class="bg-blue-800 text-gray-200 text-center py-6 mt-12">
+  <p>© 2025 Badan Legislatif Mahasiswa Poltekkes Kemenkes Mataram</p>
+  <p class="text-sm mt-2">Dikelola oleh Departemen Media dan Informasi</p>
+</footer>
+
